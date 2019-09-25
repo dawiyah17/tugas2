@@ -1,0 +1,39 @@
+<!--Tag untuk menentukan dokumen-->
+<!DOCTYPE html>
+<!--Tag untuk membuat sebuah dokumen html--> 
+<html>
+<!--title untuk membuat judul dari sebuah halaman-->
+      <head>
+              <title>Belajar Membuat Form </title>
+              </head> 
+    <body>
+<!--cara membuat form pada html-->
+<!--form action agar terlihat struktur formnya-->
+        <form action=" formulir.html" method="get"> 
+<!--Tag input untuk memasukan tipe teks yang akan digunakan-->
+ 
+         Nama: <input type="text" name="nama" value="Nama Kamu" /> <br /> 
+     
+        Password: <input type="password" name="password" /> <br /> 
+     
+        Jenis Kelamin :  <input type="radio" name="jenis_kelamin" value="laki-laki" checked />  
+        Laki - Laki <input type="radio" name="jenis_kelamin" value="perempuan" />  Perempuan <br /> 
+ 
+        Hobi: <input type="checkbox" name="hobi_baca" /> Membaca Buku 
+        <input type="checkbox" name="hobi_nulis" checked /> Menulis
+             <input type="checkbox" name="hobi_mancing" /> Memancing <br /> 
+
+<!--Tag select digunakan untuk memasukan nilai yang sudah tersedia--> 
+        Asal Kota:  <select name="asal_kota" >      <option value="Kota Jakarta">
+        Jakarta</option>      <option>Bandung</option>
+          <option value="Kota Semarang" selected>Semarang</option>
+          </select> <br /> 
+ <!--text area untuk menginput text-->
+        Komentar Anda:
+       <textarea name="komentar" rows="5" cols="20"> Silahkan katakan isi hati anda </textarea> <br /> 
+ 
+       <input type="submit" value="Mulai Proses!" > 
+ 
+       </form>
+    </body> <!-- tutup tag body -->
+  </html> <!-- tutup tag html -->

@@ -1,0 +1,33 @@
+<!--Tag untuk menentukan dokumen--><!DOCTYPE html>
+<html>
+<!--Tag untuk membuat sebuah dokumen html-->
+ <!--Tag untuk membuat judul dari sebuah halaman-->
+<head> 
+    <!-- Nilai absolut adalah sebuah nilai di dalam CSS, dimana nilai tersebut tidak dipengaruhi kondisi tag 
+        induknya (parent), dan didasarkan pada ukuran sebenarnya di media printing. Di dalam CSS, nilai absolut
+         adalah: milimeter (mm), centimeter (cm), inchi (in), point (pt), dan pica (pc). -->
+            <title>Contoh Perbandingan Ukuran dari font-size</title>
+           <!--style untuk menyisipkan kode-->
+           <style type="text/css">
+            body    { font-size:14pt; }
+            p.satu  { font-size:8mm; }
+            p.dua   { font-size:0.35in; }
+            p.tiga  { font-size:2.2pc; }
+            p.empat { font-size:20px; }p.lima  { font-size:1.8em }
+            p.enam  { font-size:3ex; }
+            p.tujuh { font-size:190%; }
+            </style>
+    </head>
+    <!--Untuk membuat heading-->
+    <body>
+            <!--<P> Tag untuk membuat paragraf ,sedangkan <p class> digunakan untuk menentukan style grup dari sebuah elemen-->
+            <p>Kalimat ini akan berukuran 14 point</p>
+            <p class="satu">Kalimat ini akan berukuran 8 milimeter</p>
+            <p class="dua">Kalimat ini akan berukuran 0,35 inchi</p>
+            <p class="tiga">Kalimat ini akan berukuran 2,2 pica</p>
+            <p class="empat">Kalimat ini akan berukuran 20 pixel</p>
+            <p class="lima">Kalimat ini akan berukuran 1,8 em</p>
+            <p class="enam">Kalimat ini akan berukuran 3 ex</p>
+            <p class="tujuh">Kalimat ini akan berukuran 190%</p>
+    </body>
+</html>

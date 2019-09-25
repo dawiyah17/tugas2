@@ -1,0 +1,41 @@
+<!--DOCTYPE digunakan sebagai pembuatan dokumen pada html-->
+<!DOCTYPE html>
+<!--tag untuk membuat dokumen html-->
+<html>
+    <!--title tag untuk membuat judul sebuah halaman-->
+    <!--<div> Tag untuk membuat sebuah bagian dalam dokumen-->
+    <!--<style type> digunakan untuk penyisipan kode-->
+    <head>
+            <title>Contoh Inheritance dalam CSS</title>
+            <style type="text/css">
+        
+            div.satu {
+                border: 1px solid black;
+                color: blue;
+            }
+            div.dua {
+                border: 1px solid black;
+            }
+            p.dua {
+                border: inherit;
+            }
+            </style>
+    </head>
+        <!--<body>Untuk membuat heading-->
+    <body>
+        <!--<div clas> digunakan sebagaibagian dalam suatu kelas atau grup-->
+            <div class="satu">
+                <!--<p class> merupakan paragraf dalam satu kelas -->
+            <p class="satu">
+                Kalimat ini tanpa <em class="satu">nilai property inherit</em> CSS
+            </p>
+            </div>
+            <!--br merupakan pemutus dalam satu baris-->
+            <br />
+            <div class="dua">
+            <p class="dua">
+                Kalimat ini menggunakan <em class="dua">nilai property inherit</em> CSS
+            </p>   
+            </div>
+    </body> <!-- tutup tag body -->
+</html><!-- tutup tag html -->
